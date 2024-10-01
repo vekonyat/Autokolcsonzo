@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9eba7aa1-323a-4d26-bd19-a49d0f2e0153" name="Changes" comment="Egy kezdő fájl létrehozása, feltöltése, github teszt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/autokolcsonzo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +28,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vekonyat"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vekonyat&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vekonyat/Autokolcsonzo&quot;,
@@ -52,9 +53,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.autokolcsonzo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -129,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727735391509</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+      <option name="closed" value="true" />
+      <created>1727735480076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727735480076</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+      <option name="closed" value="true" />
+      <created>1727735621493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727735621493</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

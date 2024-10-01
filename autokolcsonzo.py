@@ -1,0 +1,24 @@
+from abc import ABC, abstractmethod
+
+
+class Auto(ABC):
+    def __init__(self, rendszam, tipus, berleti_dij):
+        self.rendszam = rendszam
+        self.tipus = tipus
+        self.berleti_dij = berleti_dij
+        self.berelve = False
+
+    @abstractmethod
+    def __str__(self):
+        pass
+
+class Szemelyauto(Auto):
+    def __init__(self, rendszam, tipus, berleti_dij, utasszam):
+        super().__init__( rendszam, tipus, berleti_dij)
+        self.utasszam = utasszam
+
+    def __str__(self):
+        return f"Személyautó: {self.rendszam}, {self.tipus}, {self.berleti_dij}, {self.utasszam}"
+
+auto1 = Szemelyauto("ABC-123", "Toyota Corolla", 5000, 5)
+print(auto1)
