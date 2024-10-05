@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása">
+    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="UI, bérlések listázása">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autokolcsonzo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Berles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Berles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +108,13 @@
       <option name="project" value="LOCAL" />
       <updated>1728164557509</updated>
     </task>
-    <task id="LOCAL-00005" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+    <task id="LOCAL-00005" summary="UI, bérlések listázása">
       <option name="closed" value="true" />
-      <created>1727734710171</created>
+      <created>1728168169778</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1727734710171</updated>
+      <updated>1728168169778</updated>
     </task>
     <task id="LOCAL-00006" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
       <option name="closed" value="true" />
@@ -132,7 +132,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727735391509</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +164,7 @@
     <MESSAGE value="Autokolcsonzo elkezdve, autók hozzáadva" />
     <MESSAGE value="Osztályok szétszedése külön fájlokba" />
     <MESSAGE value="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása" />
+    <MESSAGE value="UI, bérlések listázása" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI, bérlések listázása" />
   </component>
 </project>

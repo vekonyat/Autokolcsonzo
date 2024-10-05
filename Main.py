@@ -43,15 +43,35 @@ while True:
     print("2 - Bérlées lemondása")
     print("3 - Bérlések listázása")
     print("4 - Kilépés")
-    valasztas = int(input("Kérem, válasszon (szám+Enter): "))
+    valasztas = input("Kérem, válasszon (szám+Enter): ")
 
-    if valasztas == 1:
-        break
+    if valasztas == "1":
+        rendszam = input("Adja meg a bérelni kívánt autó rendszámát: ")
+        datum = input("Adja meg a bérlés dátumát (ÉÉÉÉ-HH-NN): ")
+        ugyfel_id = int(input("Adja meg az ügyfélazonosítót: "))
+        found_ugyfel = False
+        for ugyfel in kolcsonzo.ugyfelek:
+            if ugyfel.id == ugyfel_id:
+                found_ugyfel = True
+                found_auto = False
+                for auto in kolcsonzo.autok:
+                    if auto.rendszam == rendszam:
+                        found_auto = True
+                        kolcsonzo.berles_hozzaadasa(auto, datum, ugyfel)
+                        break
+                if not found_auto:
+                    print("Nincs ilyen rendszámú autó a kölcsönzőben.")
+        if not found_ugyfel:
+            print("Hibás ügyfélazonosító")
 
-    elif valasztas == 3:
+    elif valasztas == "2":
+        berles_id = int(input("Adja meg a lemondani kívánt bérlés azonosítóját: "))
+        kolcsonzo.berles_lemondasa(berles_id)
+
+    elif valasztas == "3":
         kolcsonzo.berlesek_listazasa()
 
-    elif valasztas == 4:
+    elif valasztas == "4":
         print(f"Köszönjük, hogy a {kolcsonzo} rendszert használta! Viszontlátásra!")
         break
 
