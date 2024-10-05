@@ -18,5 +18,12 @@ class Autokolcsonzo:
     def __str__(self):
         return f"{self.nev} car rent - Rent a car!"
 
+    def berlesek_listazasa(self):
+        if not self.berlesek:
+            print("Jelenleg nincsenek aktív bérlések.")
+        else:
+            for berles in self.berlesek:
+                print(berles)
+
 
 

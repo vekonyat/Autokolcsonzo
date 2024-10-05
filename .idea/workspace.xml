@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Osztályok szétszedése külön fájlokba">
+    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autokolcsonzo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Berles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Berles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,8 @@
   "keyToString": {
     "Python.Main.executor": "Run",
     "Python.autokolcsonzo.executor": "Run",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,13 +100,13 @@
       <option name="project" value="LOCAL" />
       <updated>1728161904526</updated>
     </task>
-    <task id="LOCAL-00004" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+    <task id="LOCAL-00004" summary="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása">
       <option name="closed" value="true" />
-      <created>1727733964954</created>
+      <created>1728164557509</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1727733964954</updated>
+      <updated>1728164557509</updated>
     </task>
     <task id="LOCAL-00005" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
       <option name="closed" value="true" />
@@ -129,7 +132,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727735391509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +163,7 @@
     <MESSAGE value="Teherauto osztály kész" />
     <MESSAGE value="Autokolcsonzo elkezdve, autók hozzáadva" />
     <MESSAGE value="Osztályok szétszedése külön fájlokba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Osztályok szétszedése külön fájlokba" />
+    <MESSAGE value="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása" />
   </component>
 </project>
