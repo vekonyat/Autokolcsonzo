@@ -4,9 +4,17 @@ class Autokolcsonzo:
         self.nev = nev
         self.autok = []
         self.berlesek = []
+        self.ugyfelek = []
 
     def auto_hozzaad(self, auto):
         self.autok.append(auto)
+
+    def ugyfel_hozzaad(self, ugyfel):
+        self.ugyfelek.append(ugyfel)
+
+    def berles_hozzaad(self, berles):
+        self.berlesek.append(berles)
+
     def __str__(self):
         return f"{self.nev} car rent - Rent a car!"
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Autokolcsonzo elkezdve, autók hozzáadva">
+    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Osztályok szétszedése külön fájlokba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Main.executor": "Run",
     "Python.autokolcsonzo.executor": "Run",
     "git-widget-placeholder": "main"
   }
@@ -87,13 +89,13 @@
       <option name="project" value="LOCAL" />
       <updated>1728080119692</updated>
     </task>
-    <task id="LOCAL-00003" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+    <task id="LOCAL-00003" summary="Osztályok szétszedése külön fájlokba">
       <option name="closed" value="true" />
-      <created>1727733934776</created>
+      <created>1728161904526</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1727733934776</updated>
+      <updated>1728161904526</updated>
     </task>
     <task id="LOCAL-00004" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
       <option name="closed" value="true" />
@@ -127,7 +129,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727735391509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +159,7 @@
     <MESSAGE value="Egy kezdő fájl létrehozása, feltöltése, github teszt" />
     <MESSAGE value="Teherauto osztály kész" />
     <MESSAGE value="Autokolcsonzo elkezdve, autók hozzáadva" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autokolcsonzo elkezdve, autók hozzáadva" />
+    <MESSAGE value="Osztályok szétszedése külön fájlokba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Osztályok szétszedése külön fájlokba" />
   </component>
 </project>
