@@ -32,7 +32,10 @@ class Autokolcsonzo:
             if berles.auto.rendszam == auto.rendszam and berles.datum == datum:
                 print(f"Van már bérlés a megadott időpontra {auto.rendszam} rendszámmal.")
                 return False
-        uj_id = len(self.berlesek) + 1
+        if self.berlesek:
+            uj_id = max(self.berlesek, key=lambda berles: berles.id).id + 1
+        else:
+            uj_id = 1
         uj_berles = Berles(uj_id, auto, datum, ugyfel)
         self.berlesek.append(uj_berles)
         print(f"Sikeres bérlés: {auto.rendszam} - {auto.tipus} bérelve {datum} dátumra {ugyfel.name} számára. Bérleti díj: {auto.berleti_dij} Ft")

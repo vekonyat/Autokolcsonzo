@@ -40,7 +40,7 @@ print(kolcsonzo)
 while True:
     print("\nKérem, válasszon a következő lehetőségek közül:")
     print("1 - Autó bérlése")
-    print("2 - Bérlées lemondása")
+    print("2 - Bérlés lemondása")
     print("3 - Bérlések listázása")
     print("4 - Kilépés")
     valasztas = input("Kérem, válasszon (szám+Enter): ")
