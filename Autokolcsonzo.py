@@ -35,7 +35,7 @@ class Autokolcsonzo:
         uj_id = len(self.berlesek) + 1
         uj_berles = Berles(uj_id, auto, datum, ugyfel)
         self.berlesek.append(uj_berles)
-        print(f"Sikeres bérlés: {auto.rendszam} - {auto.tipus} bérelve {datum} dátumra {ugyfel.name} számára.")
+        print(f"Sikeres bérlés: {auto.rendszam} - {auto.tipus} bérelve {datum} dátumra {ugyfel.name} számára. Bérleti díj: {auto.berleti_dij} Ft")
         return True
 
     def berles_lemondasa(self, id):

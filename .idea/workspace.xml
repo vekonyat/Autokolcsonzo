@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="UI, bérlések listázása">
+    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Szinte kész, minden működik, ,még ellenőrizni kell">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/Auto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autokolcsonzo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +113,13 @@
       <option name="project" value="LOCAL" />
       <updated>1728168169778</updated>
     </task>
-    <task id="LOCAL-00006" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
+    <task id="LOCAL-00006" summary="Szinte kész, minden működik, ,még ellenőrizni kell">
       <option name="closed" value="true" />
-      <created>1727735225430</created>
+      <created>1728172717175</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1727735225430</updated>
+      <updated>1728172717175</updated>
     </task>
     <task id="LOCAL-00007" summary="Egy kezdő fájl létrehozása, feltöltése, github teszt">
       <option name="closed" value="true" />
@@ -132,7 +129,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727735391509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +162,7 @@
     <MESSAGE value="Osztályok szétszedése külön fájlokba" />
     <MESSAGE value="Ugyfel osztály létrehozása, id-k hozzádaása, bérlések, ügyfelek inicializálása" />
     <MESSAGE value="UI, bérlések listázása" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI, bérlések listázása" />
+    <MESSAGE value="Szinte kész, minden működik, ,még ellenőrizni kell" />
+    <option name="LAST_COMMIT_MESSAGE" value="Szinte kész, minden működik, ,még ellenőrizni kell" />
   </component>
 </project>
