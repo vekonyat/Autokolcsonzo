@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Bérléskor visszaadja az árat, azaz azt is kiírja." />
+    <list default="true" id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Bérléskor visszaadja az árat, azaz azt is kiírja.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autokolcsonzo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Autokolcsonzo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,18 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "MERGED",
-      "assignee": "vekonyat"
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;vekonyat&quot;
     }
   ],
-  "lastFilter": {
-    "state": "MERGED",
-    "assignee": "vekonyat"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;,
+    &quot;assignee&quot;: &quot;vekonyat&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/vekonyat/Autokolcsonzo&quot;,
@@ -56,16 +62,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Autokolcsonzo.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.autokolcsonzo.executor": "Run",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9eba7aa1-323a-4d26-bd19-a49d0f2e0153" name="Changes" comment="" />
+      <changelist id="96081468-1e2d-4bfa-8985-d367e4fca2f3" name="Changes" comment="Bérléskor visszaadja az árat, azaz azt is kiírja." />
       <created>1727732889987</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

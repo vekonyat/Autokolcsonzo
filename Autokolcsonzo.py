@@ -1,5 +1,5 @@
 from Berles import Berles
-
+from datetime import datetime
 
 class Autokolcsonzo:
     def __init__(self, nev):
@@ -27,6 +27,20 @@ class Autokolcsonzo:
             for berles in self.berlesek:
                 print(berles)
 
+    def ervenyes_datum(self, datum):
+
+        try:
+            berles_datum = datetime.strptime(datum, "%Y-%m-%d")
+            mai_datum = datetime.now()
+
+            if berles_datum < mai_datum:
+                print("A megadott dátum már elmúlt!")
+                return False
+            return True
+        except ValueError:
+            print("Érvénytelen dátumformátum! Kérem használja a következő formátumot: YYYY-MM-DD")
+            return False
+
     def berles_hozzaadasa(self, auto, datum, ugyfel):
         for berles in self.berlesek:
             if berles.auto.rendszam == auto.rendszam and berles.datum == datum:
@@ -38,7 +52,6 @@ class Autokolcsonzo:
             uj_id = 1
         uj_berles = Berles(uj_id, auto, datum, ugyfel)
         self.berlesek.append(uj_berles)
-        print(f"Sikeres bérlés: {auto.rendszam} - {auto.tipus} bérelve {datum} dátumra {ugyfel.name} számára. Bérleti díj: {auto.berleti_dij} Ft")
         return True
 
     def berles_lemondasa(self, id):

@@ -7,9 +7,9 @@ from Ugyfel import Ugyfel
 
 kolcsonzo = Autokolcsonzo("Renter")
 
-auto1 = Szemelyauto(1, "ABC-123", "Toyota Corolla", 5000, 5)
-auto2 = Szemelyauto(2, "ABC-124", "Honda Civic", 3000, 4)
-auto3 = Teherauto(3, "ABC-125", "Ford Transit", 8000, 10)
+auto1 = Szemelyauto(1, "ABC-123", "Toyota Corolla", 25000, 5)
+auto2 = Szemelyauto(2, "ABC-124", "Honda Civic", 20000, 4)
+auto3 = Teherauto(3, "ABC-125", "Ford Transit", 35000, 10)
 
 kolcsonzo.auto_hozzaad(auto1)
 kolcsonzo.auto_hozzaad(auto2)
@@ -46,23 +46,41 @@ while True:
     valasztas = input("Kérem, válasszon (szám+Enter): ")
 
     if valasztas == "1":
-        rendszam = input("Adja meg a bérelni kívánt autó rendszámát: ")
-        datum = input("Adja meg a bérlés dátumát (ÉÉÉÉ-HH-NN): ")
-        ugyfel_id = int(input("Adja meg az ügyfélazonosítót: "))
-        found_ugyfel = False
-        for ugyfel in kolcsonzo.ugyfelek:
-            if ugyfel.id == ugyfel_id:
-                found_ugyfel = True
-                found_auto = False
-                for auto in kolcsonzo.autok:
-                    if auto.rendszam == rendszam:
-                        found_auto = True
-                        kolcsonzo.berles_hozzaadasa(auto, datum, ugyfel)
-                        break
-                if not found_auto:
-                    print("Nincs ilyen rendszámú autó a kölcsönzőben.")
-        if not found_ugyfel:
-            print("Hibás ügyfélazonosító")
+
+        while True:
+            rendszam = input("Adja meg a bérelni kívánt autó rendszámát: ")
+            found_auto = False
+            for auto in kolcsonzo.autok:
+                if auto.rendszam == rendszam:
+                    found_auto = True
+                    break
+            if found_auto:
+                break
+            else:
+                print("Nincs ilyen rendszámú autó a kölcsönzőben. Próbálja újra.")
+
+        while True:
+            datum = input("Adja meg a bérlés dátumát (YYYY-MM-DD): ")
+            if kolcsonzo.ervenyes_datum(datum):
+                break
+            else:
+                print("Érvénytelen dátum, kérem adjon meg egy helyes dátumot (YYYY-MM-DD formátumban).")
+
+        while True:
+            ugyfel_id = int(input("Adja meg az ügyfélazonosítót: "))
+            found_ugyfel = False
+            for ugyfel in kolcsonzo.ugyfelek:
+                if ugyfel.id == ugyfel_id:
+                    found_ugyfel = True
+                    break
+            if found_ugyfel:
+                break
+            else:
+                print("Hibás ügyfélazonosító. Próbálja újra.")
+
+        # Ha minden érték helyes, bérlés hozzáadása
+        if kolcsonzo.berles_hozzaadasa(auto, datum, ugyfel):
+            print(f"Sikeres bérlés: {auto.rendszam} - {auto.tipus} bérelve {datum} dátumra {ugyfel.name} számára. Bérleti díj: {auto.berleti_dij} Ft")
 
     elif valasztas == "2":
         berles_id = int(input("Adja meg a lemondani kívánt bérlés azonosítóját: "))
